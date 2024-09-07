@@ -42,4 +42,3 @@ You can also find me on [LinkedIn](www.linkedin.com/in/prakharkesari) and [GitHu
 
 Thank you for visiting my website!
 
-![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=prakharkesari.prakharkesari.github.io)
