@@ -22,15 +22,9 @@ body {
     overflow-x: hidden;
 }
 
-
-
-
-
-
-
 .header-background {
-    background: linear-gradient(rgba(255, 254, 253, 0.7), rgba(255, 254, 253, 0.9)), 
-                url("https://i.imgur.com/TAn6FWz.jpg") center center fixed;
+    background: linear-gradient(rgba(124, 255, 239, 0.8), rgba(255, 254, 253, 0.9));
+                /*url("https://i.imgur.com/TAn6FWz.jp") center center fixed*/
     background-size: cover;
     text-align: center;
     height: 100vh; 
@@ -164,10 +158,6 @@ nav ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/*.project:nth-child(even) {
-    flex-direction: row-reverse;
-}*/
-
 .project-text {
     flex: 4;
     padding: 0 20px;
@@ -202,7 +192,6 @@ nav ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .project {
         flex-direction: column;
@@ -244,7 +233,6 @@ footer {
     padding: 10px;
 }
 
-/* Additional Styles */
 h2 {
     color: #333;
     font-family: 'Unica One', cursive;
@@ -280,27 +268,26 @@ a:hover {
 
 .social-profiles i {
     font-size: 40px;
-    color: #555; /* Default color for icons */
+    color: #555;
     transition: color 0.3s ease;
 }
 
 .social-profiles i:hover {
-    color: #0077b5; /* LinkedIn color */
+    color: #0077b5;
 }
 
-/* Specific hover colors for each platform */
 .social-profiles a:nth-child(2) i:hover {
-    color: #333; /* GitHub color */
+    color: #333;
 }
 
 .social-profiles a:nth-child(3) i:hover {
-    color: #C13584; /* Instagram color */
+    color: #C13584;
 }
 
 .social-profiles a:nth-child(4) i:hover {
-    color: #D44638; /* Email (Gmail-like) color */
+    color: #D44638;
 }
 
 .social-profiles a:nth-child(5) i:hover {
-    color: #28a745; /* A green color for the phone icon */
+    color: #28a745;
 }
